@@ -28,7 +28,7 @@ Print $10$ lines of output; each line $i$ (where $1 \le i \le 10$) contains the 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-05T10:25:00.589Z  
+**Submitted:** 2026-10-05T10:39:40.994Z  
 
 ```java
 import java.io.*;
@@ -47,7 +47,7 @@ public class Solution {
 
         int N = Integer.parseInt(bufferedReader.readLine().trim());
         if(N>=2 && N<=20){
-            for(int i=1; i<=10; i++){
+            for(int i=1; i<11; i++){
                 int result = N*i;
                 System.out.println(N+" "+"x"+" "+i+" "+"="+" "+result);
             }
