@@ -14,7 +14,7 @@ public class Solution {
 
         int N = Integer.parseInt(bufferedReader.readLine().trim());
         if(N>=2 && N<=20){
-            for(int i=1; i<=10; i++){
+            for(int i=1; i<11; i++){
                 int result = N*i;
                 System.out.println(N+" "+"x"+" "+i+" "+"="+" "+result);
             }
